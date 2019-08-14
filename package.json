@@ -5,7 +5,7 @@
   "main": "index.js",
   "author": "Vyacheslav Nikitenok",
   "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
     "eslint-plugin-es5": "^1.4.1",
     "eslint-plugin-jquery": "^1.5.1"
   }
