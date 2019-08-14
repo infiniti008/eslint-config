@@ -10,6 +10,14 @@ module.exports = {
       "SharedArrayBuffer": "readonly"
     },
     "parserOptions": {
-      "ecmaVersion": 2018
+      "ecmaFeatures": {
+        "jsx": false
+      },
+      "ecmaVersion": 2018,
+      "sourceType": "module"
+    },
+    "rules": {
+      "no-unreachable": "warn",
+		  "no-unused-vars": "warn",
     }
   }
