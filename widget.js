@@ -2,6 +2,7 @@ module.exports = {
     "env": {
         "browser": true,
         "es6": false,
+        "commonjs": false,
         "node": false
     },
     "extends": ["eslint:recommended", "plugin:es5/no-es2015", "plugin:jquery/slim"],
