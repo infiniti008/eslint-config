@@ -16,7 +16,7 @@ Put next lines into your _package.json_ file:
 ```
 "eslintConfig": {
   "extends": [
-    "./node_modules/infiniti008-eslint-config/node"
+    "./node_modules/infiniti008-eslint-config/ext/node"
   ]
 }
 ```
@@ -25,7 +25,7 @@ Put next lines into your _package.json_ file:
 ```
 "eslintConfig": {
   "extends": [
-    "./node_modules/infiniti008-eslint-config/widget"
+    "./node_modules/infiniti008-eslint-config/ext/widget"
   ]
 }
 ```
