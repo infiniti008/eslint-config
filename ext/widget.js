@@ -20,6 +20,7 @@ module.exports = {
         "no-console": 2,
         "no-control-regex": 0,
         "no-useless-escape": 0,
-        "no-unused-vars": 1
+        "no-unused-vars": 1,
+        "space-after-keywords": 1
     }
 }
