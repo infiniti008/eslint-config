@@ -21,6 +21,10 @@ module.exports = {
         "no-control-regex": 0,
         "no-useless-escape": 0,
         "no-unused-vars": 1,
-        "space-after-keywords": 1
+        "space-before-blocks": ["error", "always"],
+        "object-curly-spacing": ["error", "always"],
+        "array-bracket-spacing": ["error", "always"],
+        "computed-property-spacing": ["error", "never"],
+        "space-in-parens": ["error", "never"]
     }
 }
